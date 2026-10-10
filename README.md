@@ -1,78 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Women Empower Social Commerce & Learning Marketplace 🌸
 
-## Getting Started
+> **Full-stack platform connecting women artisans with global buyers, featuring creative workshops, courses, and creator dashboards.**
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-App%20Router-black?style=flat&logo=next.js)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat&logo=typescript)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v3%2Fv4-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com)
 
+---
+
+## 📌 Overview
+
+**Women Empower** is an all-in-one social impact web platform engineered to promote financial independence for women artisans and creators. The platform integrates a multi-vendor handcrafted goods marketplace with an educational academy for courses and skill development.
+
+---
+
+## ✨ Key Features
+
+- 🏪 **Artisan Storefronts & Profiles:** Dedicated creator portfolios (`/artists`, `/artists-details`) showcasing unique handmade crafts and bios.
+- 🎓 **Skill Courses & Events:** Interactive learning modules (`/courses`, `/events`) empowering users to learn new artistic crafts.
+- 📊 **Creator & Admin Dashboard:** Comprehensive management hub for orders, products, categories, banners, and users.
+- 🛒 **Full E-Commerce Flow:** Shopping cart, wishlists, secure checkout, and order history tracking.
+- 🔐 **Authentication:** JWT authentication with secure profile management and token validation.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js >= 18.x
+- npm >= 9.x
+
+### Run Development Server
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-Folder structure defination:
-path:public/ :::
-    assets/ :images,logo
-    fonts: fonts used
-    icons: icons used
-    
-
-path: src/app/  :::
-    components : Reusable UI components
-    ui/            : Buttons, Inputs, Modals, Navbar, Footer
-        forms/ : all forms
-        modals/ : all modals
-        utility: constant ui components
-            navbar.tsx
-            footer.tsx
-
-    product/       : ProductCard, ProductGrid, ProductFilter
-    cart/          : CartItem, CartSummary
-    hooks : Custom React hooks
-
-    lib  :Utility functions & helpers
-    api.ts         : API fetch -fetch / axios
-    constants.ts   : Constants ( currency, routes)
-    utils.ts       : Helper functions 
-    data : Mock/static data 
-    products.json
-    categories.json
-
-    types :TypeScript types/interfaces
-        product.ts
-        cart.ts
-        user.ts
-
-    styles :Global styles
-
-    services: major service implementations
-path: src/state-management/  :::
-    slices: individual state slices
-        cartSLice.tsx
-    store.tsx
-    provider.tsx
+Open [http://localhost:3000](http://localhost:3000) to view the application.
